@@ -6,7 +6,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "build": "npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@sendgrid/mail": "^8.1.0",
